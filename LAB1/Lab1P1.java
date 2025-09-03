@@ -24,5 +24,8 @@ class Lab1P1{
 		
 		System.out.println(Long.MAX_VALUE);
 		System.out.println(ll.MIN_VALUE);
+		System.out.println(ll.TYPE);
+		System.out.println(ll.SIZE);
+		System.out.println(ll.BYTES);
 }
 } 
