@@ -10,11 +10,13 @@ class Add{
     public void add(int...a){
         String str = " ";
         int sum=0;
+        int count = 1;
         for(int i : a){
             sum = sum + i;
             System.out.print(i);
-            if(i<=a.length-1)
+            if(count !=a.length)
             System.out.print("+");
+            count++;
         }
         System.out.println("=" + sum);
         
